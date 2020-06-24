@@ -1,0 +1,4 @@
+outlook:
+  client_id: <enter client id here from microsoft onegraph>
+  secret_id: <enter client secret here from microsoft onegraph>
+  test_email: <enter a email you have access to for testing>

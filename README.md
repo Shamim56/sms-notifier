@@ -1,1 +1,1 @@
-# sms-notifier
+# sms-emailer
