@@ -9,7 +9,7 @@ def read_yaml():
    return<Map>: a map of the configs.yml
    """
    data = None
-   with open('../config.yml') as f:
+   with open('config.yml') as f:
       data = yaml.load(f, Loader=yaml.FullLoader)
    return data
 
