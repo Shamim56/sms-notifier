@@ -7,7 +7,7 @@ from email.mime.base import MIMEBase
 from email.mime.image import MIMEImage
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-import pickle, os.path, base64
+import pickle, os.path, base64, yaml
 
 
 def create_message(sender, to, subject, message_text):
@@ -62,6 +62,7 @@ def send_message(service, user_id, message):
 
 
 def main():
+    config = read_yaml()
     SCOPES = ['https://www.googleapis.com/auth/gmail.send']
 
     """Shows basic usage of the Gmail API.
