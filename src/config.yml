@@ -5,4 +5,4 @@ outlook:
 
 gmail:
   sender_email: <enter the gmail account authorized>
-  test_address: <enter the email address to send a message to here>
+  test_email: <enter the email address to send a message to here>
