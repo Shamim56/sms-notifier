@@ -16,7 +16,6 @@ def read_yaml():
 
 def main():
    config = read_yaml()
-   print(config["outlook"]["client_id"])
    credentials = (config["outlook"]["client_id"], config["outlook"]["secret_id"])
    account = Account(credentials)
    if account.authenticate(scopes=['https://graph.microsoft.com/Mail.Send']):
