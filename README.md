@@ -22,3 +22,8 @@ sudo pip install -r requirements.txt
 ```
 - Installation on Windows
 > Install linux then return to the installation guide
+
+
+## Gmail Dependencies
+- You will need a credentials.json for the gmail account authorizing to send email
+- Running the script will produce a pickle file that is used for future authentication
