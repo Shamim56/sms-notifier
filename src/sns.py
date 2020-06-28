@@ -19,7 +19,7 @@ def main():
     client = boto3.client("sns",region_name="us-east-1")
     try:
         response = client.publish(
-            PhoneNumber="+1xxxxxxxxxx",
+            PhoneNumber="+1xxxxxxxxxx!",
             Message="hwllo! This is a test message!"
         )
     except ClientError as e:
