@@ -9,3 +9,6 @@ google-auth-oauthlib
 
 # ses dependencies
 boto3
+
+# twilio dependencies
+twilio
